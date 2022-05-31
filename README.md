@@ -4,9 +4,11 @@
 
 - What is your MSE/MAE with linereg vs tuned network?
 
-MSE/MAE of my tuned network reduced from aa/bb to xx/yy, respectively, after adding  
+  MSE/MAE of my tuned network reduced from 24.29 to 17.90, respectively, after changing the number of neurons from 30 to 25.
 
 - What happens to your train and test results if you add 5 hidden layers with 128 neurons each?
+
+  What happens to the train and test results when you add 5 hidden layers with 128 neurons each is 
 
 ## 2. Intro to Convolution Operations: Padding
 
