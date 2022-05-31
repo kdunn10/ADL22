@@ -8,7 +8,7 @@
 
 - What happens to your train and test results if you add 5 hidden layers with 128 neurons each?
 
-  What happens to the train and test results when you add 5 hidden layers with 128 neurons each is 
+  What happens to the train and test results when you add 5 hidden layers with 128 neurons each is overfitting occurs.
 
 ## 2. Intro to Convolution Operations: Padding
 
