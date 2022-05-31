@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-- What is youe MSE/MAE with linereg vs tuned network?
+- What is your MSE/MAE with linereg vs tuned network?
 - What happens to your train and test results if you add 5 hidden layers with 128 neurons each?
 
 ## 2. Intro to Convolution Operations: Padding
