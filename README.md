@@ -47,11 +47,14 @@
 
 - If I apply pooling of 2 (2,2 window with a stride of 2) to a (6,6) array, what is the resulting size?
 
-  If a pooling of 2 is applied to a (6,6) array the resulting size is 
+  If a pooling of 2 is applied to a (6,6) array the resulting size is (3,3).
 
 ## 4. ConvNet Architectures, Layers
 
 - Define I, O, F, S, P as used in this lecture (Give a brief, 1-sentence description)
+
+  
+
 - What is my output size if Input = (100,100), kernel size=(2,2), the stride of 1, and no pooling?
 - How many weights do I have if I have 24 such filters stacked (conv2_24)?
 - Solve for the padding (P), in terms of I, F, and S, if we want the input and output size to remain the same.
