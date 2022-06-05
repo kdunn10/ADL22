@@ -9,7 +9,7 @@
 
 - What happens to your train and test results if you add 5 hidden layers with 128 neurons each?
 
-  What happens to the train and test results when you add 5 hidden layers with 128 neurons each is the performance is better and results are better and the model starts to overfit.
+  What happens to the train and test results when you add 5 hidden layers with 128 neurons each is the MSE dropped.
   
 
 ## 2. Intro to Convolution Operations: Padding
