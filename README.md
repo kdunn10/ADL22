@@ -53,13 +53,32 @@
 
 - Define I, O, F, S, P as used in this lecture (Give a brief, 1-sentence description)
 
-  
+  I = Input Volume
+  F = Filter, Kernal size
+  S = Stride
+  P = Zero-Padding
+  O = Output Neural Count, O = (I - F + 2P)/S +1
 
 - What is my output size if Input = (100,100), kernel size=(2,2), the stride of 1, and no pooling?
+
+  The output size if input = (100,100), kernal size = (2,2), the stride of 1 and no pooling is (99,99).
+
 - How many weights do I have if I have 24 such filters stacked (conv2_24)?
+
+ 96 weights 
+
 - Solve for the padding (P), in terms of I, F, and S, if we want the input and output size to remain the same.
+
+  P = ((S - 1) * I - S + F) / 2
+
 
 ## 5. Practical Patterns
 
 - What can we use the ImageDataGenerator for? What can it help us fight? (Give a brief, 1-sentence description)
+
+  We can use the ImageDataGenerator for randomly rotating, shifting, flipping, zomming, etc. on images. It does not add new information, but gives a nice remix so it might help fight overfitting.
+
 - What is a better idea: TO use one large kernel (8,8) or multiple stacked smaller ones, 4x(2,2)? Why? Show the number of weights for each option.
+
+  It is better to use multiple stacked smaller ones because it is better for a deeper neural network, it gives more powerful features, fewer parameters, and option to add additional non-linearities. One large kernel (8,8) number of weights is 64. Multiple stacked smaller ones 4x(2,2) number of weights is 16. 
+
